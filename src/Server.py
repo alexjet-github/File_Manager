@@ -2,8 +2,8 @@ import asyncio
 import logging
 
 from asyncio.streams import StreamReader, StreamWriter
-from commands.AbstractCommand import AbstractCommand
-from commands.CommandFactory import CommandFactory
+from src.commands.CommandFactory import CommandFactory
+
 
 async def process(reader: StreamReader, writer: StreamWriter):
     host, port = writer.transport.get_extra_info('peername')
@@ -13,7 +13,7 @@ async def process(reader: StreamReader, writer: StreamWriter):
 
     try:
         while True:
-            line = (await reader.readline()).decode().strip()
+            line = (await reader.readline()).decode('utf-8', 'ignore').strip()
             command = factory.get_command(line)
             await command.execute()
     except ConnectionResetError:
@@ -27,6 +27,3 @@ async def start_server(host, port):
 
     async with server:
         await server.wait_closed()
-
-# if __name__ == '__main__':
-#     asyncio.run(main())

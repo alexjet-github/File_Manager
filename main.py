@@ -3,9 +3,10 @@ import sys
 import asyncio
 
 from src.ApplicationSettings import ApplicationSettings
-from src.Network import start_server
+from src.Server import start_server
 
 app_set = ApplicationSettings()
+
 
 def logger_config():
     """Функция конфигурации логгера"""
@@ -21,6 +22,7 @@ def logger_config():
         logging.basicConfig(filename='log.txt', format=_format, datefmt=_datefmt, level=_level)
         logging.warning('Start logging. The name of the log file in the settings.conf is empty!')
 
+
 def file_change(_self, type, string):
     try:
         f = open(_self, type)
@@ -33,6 +35,7 @@ def file_change(_self, type, string):
     finally:
         f.close()
 
+
 if __name__ == '__main__':
     logger_config()
 
@@ -43,6 +46,6 @@ if __name__ == '__main__':
 
     host = app_set.file_server_host
     port = app_set.file_server_port
-    asyncio.run(start_server(host,port))
+    asyncio.run(start_server(host, port))
 
     sys.stdout.write(file_change('log.txt', 'r', 0))
