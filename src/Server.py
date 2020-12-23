@@ -13,8 +13,14 @@ async def process(reader: StreamReader, writer: StreamWriter):
 
     try:
         while True:
-            line = (await reader.readline()).decode('utf-8', 'ignore').strip()
+            line = (await reader.readline()).decode().strip()
             command = factory.get_command(line)
+
+            # while True:
+            #     line = input('=> ')
+            #     command: AbstractCommand = factory.get_command(line)
+            #     command.execute()
+
             await command.execute()
     except ConnectionResetError:
         writer.close()

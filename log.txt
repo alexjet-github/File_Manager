@@ -388,3 +388,673 @@ Traceback (most recent call last):
   File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
     await command.execute()
 TypeError: object NoneType can't be used in 'await' expression
+2020-12-20 21:27:27 INFO: Start logging
+2020-12-20 21:27:27 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 21:27:27 INFO: Server started on 127.0.0.1:3223
+2020-12-20 21:48:21 INFO: Start logging
+2020-12-20 21:48:21 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 21:48:21 INFO: Server started on 127.0.0.1:3223
+2020-12-20 21:49:48 INFO: Client 127.0.0.1:56537 is connected!
+2020-12-20 21:50:05 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("object NoneType can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
+    await command.execute()
+TypeError: object NoneType can't be used in 'await' expression
+2020-12-20 21:50:50 INFO: Start logging
+2020-12-20 21:50:50 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 21:50:50 INFO: Server started on 127.0.0.1:3223
+2020-12-20 21:50:54 INFO: Client 127.0.0.1:56551 is connected!
+2020-12-20 21:51:05 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("object NoneType can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
+    await command.execute()
+TypeError: object NoneType can't be used in 'await' expression
+2020-12-20 21:52:04 INFO: Start logging
+2020-12-20 21:52:04 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 21:52:04 INFO: Server started on 127.0.0.1:3223
+2020-12-20 21:52:12 INFO: Client 127.0.0.1:56567 is connected!
+2020-12-20 21:52:15 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("object NoneType can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
+    await command.execute()
+TypeError: object NoneType can't be used in 'await' expression
+2020-12-20 22:04:52 INFO: Start logging
+2020-12-20 22:04:52 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:04:52 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:04:58 INFO: Client 127.0.0.1:56700 is connected!
+2020-12-20 22:05:22 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=AttributeError("'CommandFactory' object has no attribute '_commands'")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 107, in get_command
+    return self._commands.get(command, self.__UnknownCommand)(
+AttributeError: 'CommandFactory' object has no attribute '_commands'
+2020-12-20 22:06:35 INFO: Start logging
+2020-12-20 22:06:35 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:06:35 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:06:37 INFO: Client 127.0.0.1:56716 is connected!
+2020-12-20 22:06:39 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=AttributeError("'list' object has no attribute 'get'")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 107, in get_command
+    return self._commands.get(command, self.__UnknownCommand)(
+AttributeError: 'list' object has no attribute 'get'
+2020-12-20 22:16:33 INFO: Start logging
+2020-12-20 22:16:33 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:16:33 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:16:38 INFO: Client 127.0.0.1:56803 is connected!
+2020-12-20 22:16:41 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=NameError("name 'logging' is not defined")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
+    await command.execute()
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 71, in execute
+    logging.info(f'Unknown command: "{self.command}".\n')
+NameError: name 'logging' is not defined
+2020-12-20 22:17:25 INFO: Start logging
+2020-12-20 22:17:25 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:17:25 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:17:29 INFO: Client 127.0.0.1:56830 is connected!
+2020-12-20 22:17:33 INFO: Unknown command: "123".
+
+2020-12-20 22:17:33 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("object NoneType can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
+    await command.execute()
+TypeError: object NoneType can't be used in 'await' expression
+2020-12-20 22:18:05 INFO: Start logging
+2020-12-20 22:18:05 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:18:05 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:18:12 INFO: Client 127.0.0.1:56841 is connected!
+2020-12-20 22:18:16 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("object NoneType can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
+    await command.execute()
+TypeError: object NoneType can't be used in 'await' expression
+2020-12-20 22:26:31 INFO: Start logging
+2020-12-20 22:26:31 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:26:31 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:26:36 INFO: Client 127.0.0.1:56985 is connected!
+2020-12-20 22:27:13 INFO: Start logging
+2020-12-20 22:27:13 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:27:13 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:27:17 INFO: Client 127.0.0.1:56989 is connected!
+2020-12-20 22:27:20 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("object NoneType can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
+    await command.execute()
+TypeError: object NoneType can't be used in 'await' expression
+2020-12-20 22:31:30 INFO: Start logging
+2020-12-20 22:31:30 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:31:30 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:31:33 INFO: Client 127.0.0.1:57025 is connected!
+2020-12-20 22:31:35 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("object NoneType can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
+    await command.execute()
+TypeError: object NoneType can't be used in 'await' expression
+2020-12-20 22:32:13 INFO: Start logging
+2020-12-20 22:32:13 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:32:13 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:32:17 INFO: Client 127.0.0.1:57036 is connected!
+2020-12-20 22:32:20 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("object NoneType can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
+    await command.execute()
+TypeError: object NoneType can't be used in 'await' expression
+2020-12-20 22:34:54 INFO: Start logging
+2020-12-20 22:34:54 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:34:54 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:34:58 INFO: Client 127.0.0.1:57113 is connected!
+2020-12-20 22:34:59 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("object NoneType can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
+    await command.execute()
+TypeError: object NoneType can't be used in 'await' expression
+2020-12-20 22:38:27 INFO: Start logging
+2020-12-20 22:38:27 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:38:27 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:38:31 INFO: Client 127.0.0.1:57154 is connected!
+2020-12-20 22:38:34 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
+    await command.execute()
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 50, in execute
+    print(f'{command.name}: {command.help}')
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 60, in name
+    raise NotImplementedError
+NotImplementedError
+2020-12-20 22:41:58 INFO: Start logging
+2020-12-20 22:41:58 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:41:58 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:42:03 INFO: Client 127.0.0.1:57197 is connected!
+2020-12-20 22:43:32 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("object NoneType can't be used in 'await' expression")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 18, in process
+    await command.execute()
+TypeError: object NoneType can't be used in 'await' expression
+2020-12-20 22:43:43 INFO: Start logging
+2020-12-20 22:43:43 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:43:43 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:43:46 INFO: Client 127.0.0.1:57219 is connected!
+2020-12-20 22:44:36 INFO: Disconnected from 127.0.0.1:57219
+2020-12-20 22:49:13 INFO: Start logging
+2020-12-20 22:49:13 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 22:49:13 INFO: Server started on 127.0.0.1:3223
+2020-12-20 22:49:17 INFO: Client 127.0.0.1:57290 is connected!
+2020-12-20 23:21:23 INFO: Start logging
+2020-12-20 23:21:23 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 23:21:23 INFO: Server started on 127.0.0.1:3223
+2020-12-20 23:21:27 INFO: Client 127.0.0.1:57577 is connected!
+2020-12-20 23:21:27 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("__init__() missing 2 required positional arguments: 'reader' and 'writer'")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 12, in process
+    factory = CommandFactory(reader, writer)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 58, in __init__
+    EchoCommand(),
+TypeError: __init__() missing 2 required positional arguments: 'reader' and 'writer'
+2020-12-20 23:22:56 INFO: Start logging
+2020-12-20 23:22:56 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 23:22:56 INFO: Server started on 127.0.0.1:3223
+2020-12-20 23:23:03 INFO: Client 127.0.0.1:57615 is connected!
+2020-12-20 23:23:03 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("__init__() missing 2 required positional arguments: 'reader' and 'writer'")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 12, in process
+    factory = CommandFactory(reader, writer)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 58, in __init__
+    EchoCommand(),
+TypeError: __init__() missing 2 required positional arguments: 'reader' and 'writer'
+2020-12-20 23:26:36 INFO: Start logging
+2020-12-20 23:26:36 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 23:26:36 INFO: Server started on 127.0.0.1:3223
+2020-12-20 23:26:40 INFO: Client 127.0.0.1:57647 is connected!
+2020-12-20 23:26:40 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("__init__() missing 2 required positional arguments: 'reader' and 'writer'")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 12, in process
+    factory = CommandFactory(reader, writer)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 58, in __init__
+    EchoCommand(),
+TypeError: __init__() missing 2 required positional arguments: 'reader' and 'writer'
+2020-12-20 23:27:24 INFO: Start logging
+2020-12-20 23:27:24 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 23:27:24 INFO: Server started on 127.0.0.1:3223
+2020-12-20 23:27:28 INFO: Client 127.0.0.1:57650 is connected!
+2020-12-20 23:27:28 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError('__init__() takes 1 positional argument but 3 were given')>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 12, in process
+    factory = CommandFactory(reader, writer)
+TypeError: __init__() takes 1 positional argument but 3 were given
+2020-12-20 23:38:17 INFO: Start logging
+2020-12-20 23:38:17 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 23:38:17 INFO: Server started on 127.0.0.1:3223
+2020-12-20 23:38:21 INFO: Client 127.0.0.1:57747 is connected!
+2020-12-20 23:38:23 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("'NoneType' object is not callable")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 79, in get_command
+    return self.commands.get(line)(
+TypeError: 'NoneType' object is not callable
+2020-12-20 23:39:55 INFO: Start logging
+2020-12-20 23:39:55 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 23:39:55 INFO: Server started on 127.0.0.1:3223
+2020-12-20 23:39:57 INFO: Client 127.0.0.1:57776 is connected!
+2020-12-20 23:39:59 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError('__init__() takes 1 positional argument but 3 were given')>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 79, in get_command
+    return self.commands.get(line, self.__UnknownCommand)(
+TypeError: __init__() takes 1 positional argument but 3 were given
+2020-12-20 23:46:35 INFO: Start logging
+2020-12-20 23:46:35 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 23:46:35 INFO: Server started on 127.0.0.1:3223
+2020-12-20 23:46:39 INFO: Client 127.0.0.1:57824 is connected!
+2020-12-20 23:46:40 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError('__init__() takes 1 positional argument but 3 were given')>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 80, in get_command
+    return self.commands.get(line, self.__UnknownCommand)(
+TypeError: __init__() takes 1 positional argument but 3 were given
+2020-12-20 23:51:13 INFO: Start logging
+2020-12-20 23:51:13 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 23:51:13 INFO: Server started on 127.0.0.1:3223
+2020-12-20 23:51:16 INFO: Client 127.0.0.1:57904 is connected!
+2020-12-20 23:51:18 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError('__init__() takes 1 positional argument but 3 were given')>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 80, in get_command
+    return self.commands.get(line, self.__UnknownCommand)(
+TypeError: __init__() takes 1 positional argument but 3 were given
+2020-12-20 23:59:02 INFO: Start logging
+2020-12-20 23:59:02 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-20 23:59:02 INFO: Server started on 127.0.0.1:3223
+2020-12-20 23:59:07 INFO: Client 127.0.0.1:57954 is connected!
+2020-12-20 23:59:09 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("__init__() missing 2 required positional arguments: 'reader' and 'writer'")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 80, in get_command
+    return self.commands.get(line, self.__UnknownCommand)(
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 61, in commands
+    'echo_start': EchoCommand(),
+TypeError: __init__() missing 2 required positional arguments: 'reader' and 'writer'
+2020-12-21 00:02:57 INFO: Start logging
+2020-12-21 00:02:57 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-21 00:02:57 INFO: Server started on 127.0.0.1:3223
+2020-12-21 00:02:59 INFO: Client 127.0.0.1:57993 is connected!
+2020-12-21 00:03:02 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("__init__() missing 2 required positional arguments: 'reader' and 'writer'")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 80, in get_command
+    return self.commands.get(line, self.__UnknownCommand)(
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 61, in commands
+    'echo_start': EchoCommand(),
+TypeError: __init__() missing 2 required positional arguments: 'reader' and 'writer'
+2020-12-21 00:05:50 INFO: Start logging
+2020-12-21 00:05:50 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-21 00:05:50 INFO: Server started on 127.0.0.1:3223
+2020-12-21 00:05:54 INFO: Client 127.0.0.1:58017 is connected!
+2020-12-21 00:05:55 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError("__init__() missing 2 required positional arguments: 'reader' and 'writer'")>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 80, in get_command
+    return self.commands.get(line, self.__UnknownCommand)(
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 61, in commands
+    'echo_start': EchoCommand(),
+TypeError: __init__() missing 2 required positional arguments: 'reader' and 'writer'
+2020-12-21 00:06:32 INFO: Start logging
+2020-12-21 00:06:32 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-21 00:06:32 INFO: Server started on 127.0.0.1:3223
+2020-12-21 00:06:35 INFO: Client 127.0.0.1:58022 is connected!
+2020-12-21 00:06:38 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError('__init__() takes 1 positional argument but 3 were given')>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 80, in get_command
+    return self.commands.get(line, self.__UnknownCommand)(
+TypeError: __init__() takes 1 positional argument but 3 were given
+2020-12-21 00:16:06 INFO: Start logging
+2020-12-21 00:16:06 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-21 00:16:06 INFO: Server started on 127.0.0.1:3223
+2020-12-21 00:16:10 INFO: Start logging
+2020-12-21 00:16:10 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-21 00:16:10 INFO: Server started on 127.0.0.1:3223
+2020-12-21 00:16:17 INFO: Client 127.0.0.1:58120 is connected!
+2020-12-21 00:16:23 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError('__init__() takes 1 positional argument but 3 were given')>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 80, in get_command
+    return self.commands.get(line, self.__UnknownCommand)(
+TypeError: __init__() takes 1 positional argument but 3 were given
+2020-12-21 00:26:58 INFO: Start logging
+2020-12-21 00:26:58 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-21 00:26:58 INFO: Server started on 127.0.0.1:3223
+2020-12-21 00:27:01 INFO: Client 127.0.0.1:58289 is connected!
+2020-12-21 00:27:02 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError('__init__() takes 1 positional argument but 3 were given')>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 80, in get_command
+    return self.commands.get(line, self.__UnknownCommand)(
+TypeError: __init__() takes 1 positional argument but 3 were given
+2020-12-21 00:32:24 INFO: Start logging
+2020-12-21 00:32:24 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-21 00:32:24 INFO: Server started on 127.0.0.1:3223
+2020-12-21 00:32:30 INFO: Client 127.0.0.1:58342 is connected!
+2020-12-21 00:33:48 INFO: Start logging
+2020-12-21 00:33:48 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-21 00:33:48 INFO: Server started on 127.0.0.1:3223
+2020-12-21 00:33:54 INFO: Client 127.0.0.1:58358 is connected!
+2020-12-21 00:33:58 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError('__init__() takes 1 positional argument but 3 were given')>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 80, in get_command
+    return self.commands.get(line, self.__UnknownCommand)(
+TypeError: __init__() takes 1 positional argument but 3 were given
+2020-12-21 00:35:17 INFO: Start logging
+2020-12-21 00:35:17 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-21 00:35:17 INFO: Server started on 127.0.0.1:3223
+2020-12-21 00:35:20 INFO: Start logging
+2020-12-21 00:35:20 INFO: Default local config:
+					file_server_host: 127.0.0.1
+					file_server_port: 3223
+					web_server_port: 8080
+					root_login: root
+					root_password: password
+					settings_resuming: yes
+					settings_web_enable: yes
+					settings_log_file: log.txt
+2020-12-21 00:35:20 INFO: Server started on 127.0.0.1:3223
+2020-12-21 00:35:23 INFO: Client 127.0.0.1:58373 is connected!
+2020-12-21 00:35:25 ERROR: Task exception was never retrieved
+future: <Task finished name='Task-5' coro=<process() done, defined at D:\GitHub\Soft\File_Manager\src\Server.py:8> exception=TypeError('__init__() takes 1 positional argument but 3 were given')>
+Traceback (most recent call last):
+  File "D:\GitHub\Soft\File_Manager\src\Server.py", line 17, in process
+    command = factory.get_command(line)
+  File "D:\GitHub\Soft\File_Manager\src\commands\CommandFactory.py", line 80, in get_command
+    return self.commands.get(line, self.__UnknownCommand)(
+TypeError: __init__() takes 1 positional argument but 3 were given

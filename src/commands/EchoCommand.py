@@ -15,11 +15,12 @@ class EchoCommand(AbstractCommand):
     def can_execute(self, command: str) -> bool:
         return command == self.name
 
-    def execute(self):
+    async def execute(self):
         while True:
-            message = sys.stdin.readline()
+            message = await self._readline()
 
-            if message.strip() == 'ECHO_STOP':
+            if message == 'ECHO_STOP':
                 break
 
-            sys.stdout.write(message)
+            self._writeline(message)
+            # self._writeline(f'{message}".\n')

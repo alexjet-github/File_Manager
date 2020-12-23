@@ -3,6 +3,7 @@ import sys
 import asyncio
 
 from src.ApplicationSettings import ApplicationSettings
+from src.commands.AbstractCommand import AbstractCommand
 from src.Server import start_server
 
 app_set = ApplicationSettings()
