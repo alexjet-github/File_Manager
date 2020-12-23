@@ -21,7 +21,7 @@ class AbstractCommand(object):
         pass
 
     @abstractmethod
-    def execute(self, command: str):
+    def execute(self):
         pass
 
 
@@ -44,8 +44,7 @@ class EchoCommand(AbstractCommand):
 
     def execute(self):
         while True:
-            # message = self._command
-            message = file.readline()
+            message = self._command
 
             if message.strip() == 'echo_stop':
                 break
@@ -172,6 +171,7 @@ def reactor(host, port):
 
     finally:
         sock.close()
+
 
 def process_request(conn, cli_address):
     file = conn.makefile()
